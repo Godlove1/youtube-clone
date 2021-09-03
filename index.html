@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>youtube clone</title>
+</head>
+<body>
+	
+	<div class="header">
+
+		<div class="top-left">
+	<img src="icons/menu.png"class="log" alt="menu" width="18px" height="18px">
+<img src="icons/yt.png" class="lo" alt="youtube logo" width="30px" height="30px">
+		<p>YOUTUBE</p>
+		</div>
+
+		<div class="center">
+	<input type="text" placeholder="Search" id="search-box">
+	<span><img src="icons/search.png " alt="sezrchicon" width="5px" height="5px" id="search-icon"></span>
+			<div class="audio-Search">
+<img src="icons/mic.png" alt="speech-search" id="audio" width="20px" height="20px">
+			</div>
+		</div>
+
+<div class="top-right">
+<img src="icons/video-camera-prohibited-64x64-1214281.png" alt="create-icon" width="30px" height="30px">
+<img src="icons/chip.png" alt="google-apps-icon" width="25px" height="25px">
+<img src="icons/bell-64x64-1224695.png" alt="notification-icon" width="30px" height="30px">
+<img src="images/3.jpg" id="pp" alt="profile-pic-icon" width="30px" height="30px">
+</div>
+	</div>
+
+<div class="keys">
+<div class="keywords">
+	<p class="active">all</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+	<p>keyword</p>
+</div>
+</div>
+
+<div id="profil"> 
+<div class="profile">
+
+	<div class="container">
+		<img src="icons/add-new-64x64-1214356.png" alt="" width="25px">
+		<p>Guest User</p>
+	</div>
+
+	<div class="container">
+		<img src="icons/add-new-64x64-1214356.png" alt="" width="25px">
+		<p>Guest User</p>
+	</div>
+
+	<div class="container">
+		<img src="icons/add-new-64x64-1214356.png" alt="" width="25px">
+		<p>Guest User</p>
+	</div>
+
+	<div class="container">
+		<img src="icons/add-new-64x64-1214356.png" alt="" width="25px">
+		<p>Guest User</p>
+	</div>
+
+	<div class="container">
+		<img src="icons/add-new-64x64-1214356.png" alt="" width="25px">
+		<p>Guest User</p>
+	</div>
+
+	<div class="container">
+		<img src="icons/add-new-64x64-1214356.png" alt="" width="25px">
+		<p>Guest User</p>
+	</div>
+
+	<div class="container">
+		<img src="icons/add-new-64x64-1214356.png" alt="" width="25px">
+		<p>Guest User</p>
+	</div>
+
+	<div class="container">
+		<img src="icons/add-new-64x64-1214356.png" alt="" width="25px">
+		<p>Guest User</p>
+	</div>
+<div class="splash">
+	<p>LOading</p>
+	<div class="load"></div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="yt-container">
+
+	<div class="side-menus">
+
+<div class="menu-aside  top-menu">
+
+<div class="rows active">
+	<img src="icons/home.png" alt="home-tab" width="25px" height="25px">
+	<p>Home</p>
+</div>
+
+<div class="rows explore">
+	<img src="icons/lifebuoy-64x64-1214666.png" alt="explore-tab" width="25px" height="25px">
+	<p>Explore</p>
+</div>
+
+<div class="rows subscriptions">
+	<img src="icons/layer-64x64-1214322.png" alt="subs-tabs" width="25px" height="25px">
+	<p>Subscriptions</p>
+</div>
+
+	</div>
+
+<div class="menu-aside  history-menu">
+
+<div class="rows library">
+	<img src="icons/color-palette-64x64-1214639.png" alt="library-tab" width="25px" height="25px">
+	<p>Library</p>
+</div>
+
+<div class="rows history">
+	<img src="icons/history.png" alt="history-tab" width="25px" height="25px">
+	<p>History</p>
+</div>
+
+<div class="rows your-videos">
+	<img src="icons/plus-square-64x64-1214302.png" alt="your-videos-tab" width="25px" height="25px">
+	<p>Your Videos</p>
+</div>
+
+<div class="rows watch-late">
+	<img src="icons/watckl.png" alt="watch-later-tab" width="25px" height="25px">
+	<p>Watch Later</p>
+</div>
+
+<div class="rows liked-video">
+	<img src="icons/like-64x64-1214321.png" alt="liked-tab" width="25px" height="25px">
+	<p>Liked Videos</p>
+</div>
+
+</div>
+
+<div class="menu-aside  subs-menu">
+<p class="h2">SUBSCRIPTIONS</p>
+
+<div class="rows highlights">
+	<img src="icons/archery-64x64-1214352.png" alt="highlights-tab" width="25px" height="25px">
+	<p>Highlights Gamer</p>
+</div>
+
+<div class="rows browse-channels">
+	<img src="icons/add-new-64x64-1214356.png" alt="browse-channel-tab" width="25px" height="25px">
+	<p>Browse Channnels</p>
+</div>
+
+</div>
+
+
+<div class="menu-aside  more-fromyt-menu">
+<p class="h2">MORE FROM YOUTUBE</p>
+
+<div class="rows gaming">
+	<img src="icons/age-limit-64x64-1237528.png" alt="gaming-tab" width="25px" height="25px">
+	<p>Gaming</p>
+</div>
+
+<div class="rows live">
+	<img src="icons/wifi-64x64-1214271.png" alt="live-tab" width="25px" height="25px">
+	<p>Live</p>
+</div>
+
+<div class="rows fashion">
+	<img src="icons/ankh-64x64-1237537.png" alt="fashion-tab" width="25px" height="25px">
+	<p>Fashion and Beauty</p>
+</div>
+
+<div class="rows learning">
+	<img src="icons/edit-64x64-1214336.png" alt="learning-tab" width="25px" height="25px">
+	<p>Learning</p>
+</div>
+
+<div class="rows Sport">
+	<img src="icons/megaphone-64x64-1306087.png" alt="sport-tab" width="25px" height="25px">
+	<p>Sports</p>
+</div>
+
+</div>
+
+<div class="menu-aside  seting-menu">
+
+	<div class="rows settings">
+		<img src="icons/settings.png" alt="settings-tab" width="25px" height="25px">
+		<p>Settings</p>
+	</div>
+
+	<div class="rows report">
+		<img src="icons/variable-64x64-1784383.png" alt="report-tab" width="25px" height="25px">
+		<p>Report history</p>
+	</div>
+
+	<div class="rows help">
+		<img src="icons/help.png" alt="help-tab" width="25px" height="25px">
+		<p>Help</p>
+	</div>
+
+	<div class="rows send-feedback">
+		<img src="icons/feedback-64x64-1216073.png" alt="feedback-tab" width="25px" height="25px">
+		<p>Send feedback</p>
+	</div>
+
+</div>
+
+<div class="menu-aside  copyright">
+
+	<div class="links">
+		<p>About</p>
+		<p> Press  </p>
+		<p> copyright  </p>
+		<p> Comtact us  </p>
+		<p> Creators  </p>
+		<p>ADvertise   </p>
+		<p>Developers</p>
+	</div>
+		<div class="links">
+		<p> Terms  </p>
+		<p> Privacy </p>
+		<p>Policy & Safety  </p>
+		<p>How Youtube Works  </p>
+		<p>Test new features   </p>
+	</div>
+<p class="copy">	&copy; 2021 Akale Godlove</p>
+</div>
+
+
+	</div>
+
+
+<div class="videos-container">
+
+<!--template to follow per video-->
+<div class="video-wrapper">
+<div class="v-cont">
+	<img src="images/1.jpg" alt="img" width="100%" height="100%">
+<div class="time">
+		<p>2:44</p>
+</div>
+</div>
+
+<div class="v-details">
+<img src="images/1.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+<div class="v-title">
+	<p>The dimensionless constant</p>
+</div>
+
+<img src="icons/me.png" alt="side" height="25px" width="25px">
+</div>
+
+<div class="v-info">
+	<p>PhyicsInsider</p>
+	<p> 40k views&nbsp;<span>.</span>  &nbsp;&nbsp;1 week ago</p>
+</div>
+</div>
+<!--end of template per video-->
+
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/3.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>1:2:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/3.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>The latest VR headset preview</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>Gadgetgod</p>
+		<p> 140k views&nbsp;<span>.</span> &nbsp;&nbsp;2 weeks ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/blog-4.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>3:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/blog-3.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>why you should	Code in the night</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>Devtips clinic</p>
+		<p> 1.6m views&nbsp;<span>.</span> &nbsp;&nbsp;1 year ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/bugatti-04072021-0002-1.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>12:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/blog-recent-3.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>New Bugatti.all you need to know!</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>FastCars denim</p>
+		<p> 40k views&nbsp;<span>.</span> &nbsp;&nbsp;3 weeks ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/1.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>2:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/1.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>fhih-kakak(official video)</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>fhish gohmne</p>
+		<p> 40k views&nbsp;<span>.</span> &nbsp;&nbsp;1 week ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/1.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>2:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/1.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>fhih-kakak(official video)</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>fhish gohmne</p>
+		<p> 40k views&nbsp;<span>.</span> &nbsp;&nbsp;1 week ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/1.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>2:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/1.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>fhih-kakak(official video)</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>fhish gohmne</p>
+		<p> 40k views&nbsp;<span>.</span> &nbsp;&nbsp;1 week ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/1.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>2:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/1.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>fhih-kakak(official video)</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>fhish gohmne</p>
+		<p> 40k views&nbsp;<span>.</span> &nbsp;&nbsp;1 week ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/1.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>2:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/1.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>fhih-kakak(official video)</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>fhish gohmne</p>
+		<p> 40k views&nbsp;<span>.</span> &nbsp;&nbsp;1 week ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/1.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>2:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/1.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>fhih-kakak(official video)</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>fhish gohmne</p>
+		<p> 40k views&nbsp;<span>.</span> &nbsp;&nbsp;1 week ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/1.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>2:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/1.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>fhih-kakak(official video)</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>fhish gohmne</p>
+		<p> 40k views&nbsp;<span>.</span> &nbsp;&nbsp;1 week ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/1.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>2:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/1.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>fhih-kakak(official video)</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>fhish gohmne</p>
+		<p> 40k views&nbsp;<span>.</span> &nbsp;&nbsp;1 week ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/1.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>2:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/1.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>fhih-kakak(official video)</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>fhish gohmne</p>
+		<p> 40k views&nbsp;<span>.</span> &nbsp;&nbsp;1 week ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/1.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>2:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/1.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>fhih-kakak(official video)</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>fhish gohmne</p>
+		<p> 40k views&nbsp;<span>.</span> &nbsp;&nbsp;1 week ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/1.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>2:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/1.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>fhih-kakak(official video)</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>fhish gohmne</p>
+		<p> 40k views&nbsp;<span>.</span> &nbsp;&nbsp;1 week ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/1.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>2:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/1.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>fhih-kakak(official video)</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>fhish gohmne</p>
+		<p> 40k views&nbsp;<span>.</span> &nbsp;&nbsp;1 week ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/1.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>2:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/1.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>fhih-kakak(official video)</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>fhish gohmne</p>
+		<p> 40k views&nbsp;<span>.</span> &nbsp;&nbsp;1 week ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/1.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>2:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/1.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>fhih-kakak(official video)</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>fhish gohmne</p>
+		<p> 40k views&nbsp;<span>.</span> &nbsp;&nbsp;1 week ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/1.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>2:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/1.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>fhih-kakak(official video)</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>fhish gohmne</p>
+		<p> 40k views&nbsp;<span>.</span> &nbsp;&nbsp;1 week ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+<!--template to follow per video-->
+<div class="video-wrapper">
+	<div class="v-cont">
+		<img src="images/1.jpg" alt="img" width="100%" height="100%">
+		<div class="time">
+			<p>2:44</p>
+		</div>
+	</div>
+
+	<div class="v-details">
+		<img src="images/1.jpg" id="profi-pic" alt="profile-pic" width="25px" height="25px">
+
+		<div class="v-title">
+			<p>fhih-kakak(official video)</p>
+		</div>
+
+		<img src="icons/me.png" alt="side" height="25px" width="25px">
+	</div>
+
+	<div class="v-info">
+		<p>fhish gohmne</p>
+		<p> 40k views&nbsp;<span>.</span> &nbsp;&nbsp;1 week ago</p>
+	</div>
+</div>
+<!--end of template per video-->
+
+
+
+
+
+<!--end videos wrapper container-->
+</div>
+<!--end videos wrapper container-->
+<!--end yt wrapper container-->
+</div>
+<!--end yt wrapper container-->
+<script src="main.js"></script>
+</body>
+</html>
