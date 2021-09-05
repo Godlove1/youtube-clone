@@ -483,4 +483,23 @@ body {
 .videos-container .video-wrapper .v-info:hover {
   color: #1d1c1c;
 }
-/*# sourceMappingURL=style.css.map */
+
+.note {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  main {
+    display: none;
+  }
+  .note {
+    width: 100%;
+    font-size: 2em;
+    text-transform: capitalize;
+    height: 100%;
+    display: block;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+}
