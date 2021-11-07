@@ -488,8 +488,8 @@ body {
   display: none;
 }
 
-@media (max-width: 800px) {
-  main {
+@media (min-width: 992px) {
+  .overall {
     display: none;
   }
   .note {
