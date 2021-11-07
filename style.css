@@ -488,7 +488,7 @@ body {
   display: none;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .overall {
     display: none;
   }
